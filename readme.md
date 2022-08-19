@@ -16,7 +16,7 @@ Windows 10:
 - [winget](https://github.com/microsoft/winget-cli/releases/download/v1.3.2091/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle)
 - [nodejs](https://nodejs.org/en/)
 
-# Options
+# Script menu options
 
 List - List of programs flagged to be installed
 
@@ -38,4 +38,18 @@ Winget run - Search package with [winget.run](https://winget.run/)
 
 Exit - Exit script
 
+# Add a software that is not on the list
 
+Append new software on the ```programs.js```
+
+```json
+ {
+    "name": "Your software name",
+    "id": "winget id",
+    "install": false
+}
+```
+
+The ```install``` value is either ```true``` or ```false```.
+
+Leave the default to ```false``` as this can be then changed when you run the script.
