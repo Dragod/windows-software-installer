@@ -1,7 +1,18 @@
 {
-  "name": "automated-software-installation-winget",
+  "name": "windows-software-installer",
+  "author": {
+    "name": "Fabio Paniconi",
+    "url": "https://blog.pfcode.net"
+  },
   "version": "1.0.0",
   "main": "installer.js",
+  "scripts": {
+    "start": "node installer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dragod/windows-software-installer"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "2",
