@@ -40,7 +40,7 @@ Exit - Exit script
 
 # Add a software that is not on the list
 
-Append new software on the ```programs.js```
+Append new software on the ```programs.json``` file.
 
 ```json
  {
