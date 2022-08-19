@@ -1,0 +1,13 @@
+{
+  "name": "automated-software-installation-winget",
+  "version": "1.0.0",
+  "main": "installer.js",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "2",
+    "cli-table": "^0.3.11",
+    "inquirer": "8.2.2",
+    "open": "^8.4.0",
+    "qrcode": "^1.5.1"
+  }
+}
