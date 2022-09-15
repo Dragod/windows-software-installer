@@ -6,6 +6,7 @@ Are you tired of searching for the software you need to install on a new machine
 
 Just run the script in this repo, pick the programs you want to install and then go afk until everything is finally installed.
 
+# How to run it
 ```Bash
 npm i
 npm start
