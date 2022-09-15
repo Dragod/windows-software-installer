@@ -6,13 +6,13 @@ Are you tired of searching for the software you need to install on a new machine
 
 Just run the script in this repo, pick the programs you want to install and then go afk until everything is finally installed.
 
+Only catch is that this only work on windows 10 and 11 as it's using winget.
+
 # How to run it
 ```Bash
 npm i
 npm start
 ```
-
-Only catch is that this only work on windows 10 and 11 as it's using winget.
 
 # Dependencies
 Windows 11:
